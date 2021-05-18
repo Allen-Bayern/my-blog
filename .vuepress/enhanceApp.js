@@ -10,16 +10,3 @@ export default ({
 }) => {
   Vue.use(Vuetify)
 }
-
-// 或者直接从CDN使用vuetify.
-// 像下面一样更新 .vuepress/config.js 的头部部分.
-module.exports = {
-  head: [
-    ['link', {
-      rel: 'stylesheet',
-      href: `https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css`
-    }],
-    ['script', { src: `https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js` }],
-    ['script', { src: `https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js` }],
-  ]
-}
